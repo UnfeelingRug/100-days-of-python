@@ -1,3 +1,4 @@
+# This program is a simple text adventure, using branching if-else statements based on user input.
 print('''
 *******************************************************************************
           |                   |                  |                     |

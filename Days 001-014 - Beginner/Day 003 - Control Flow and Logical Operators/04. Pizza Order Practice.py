@@ -1,7 +1,8 @@
+# This program will calculate the total cost of the user's order given their choices in the three questions.
 print("Thank you for choosing Python Pizza Deliveries!")
-size = input() # What size pizza do you want? S, M, or L
-add_pepperoni = input() # Do you want pepperoni? Y or N
-extra_cheese = input() # Do you want extra cheese? Y or N
+size = input('What size of Pizza do you want? (S / M / L) ')
+add_pepperoni = input('Would you like Pepperoni? (Y / N) ')
+extra_cheese = input('Would you like Extra Cheese? (Y / N) ')
 
 total = 0
 

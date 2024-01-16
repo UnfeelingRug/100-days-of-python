@@ -1,6 +1,6 @@
-# Enter your height in meters, and your weight in kilograms.
-height = float(input())
-weight = int(input())
+# This is a more refined version of the older BMI calculator that will also tell you your BMI category (eg. underweight, obese, etc)
+height = float(input('How tall are you, in meters? '))
+weight = int(input('How much do you weigh, in kilograms? Round to the nearest whole number. '))
 
 BMI = weight / height ** 2
 
