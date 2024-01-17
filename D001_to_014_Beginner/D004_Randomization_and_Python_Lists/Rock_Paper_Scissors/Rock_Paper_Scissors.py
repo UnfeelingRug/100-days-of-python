@@ -1,34 +1,10 @@
 # This is a rock-paper-scissors game against the computer. Try your best to win!
 
 # First we'll make some ASCII art for the three outputs, plus a new-line separator for style.
-rock = '''
-    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)
-'''
-
-paper = '''
-    _______
----'   ____)____
-          ______)
-          _______)
-         _______)
----.__________)
-'''
-
-scissors = '''
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-'''
-
-newline = '\n--------VS--------\n'
+from RPS_Art import rock
+from RPS_Art import paper
+from RPS_Art import scissors
+from RPS_Art import newline
 
 import random
 # Define the three possible moves in an indexible list.

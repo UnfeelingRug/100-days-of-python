@@ -1,8 +1,8 @@
 # Importing modules to get the random functions and the extra assets without clouding up this file.
 import random
-from hangman_art import logo
-from hangman_art import stages
-from hangman_words import word_list
+from Hangman_Art import logo
+from Hangman_Art import stages
+from Hangman_Words import word_list
 
 # Pick a mystery word from the supplied list, and create the list for guessed letters.
 mystery_word = random.choice(word_list).upper()
