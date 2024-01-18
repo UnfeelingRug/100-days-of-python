@@ -1,7 +1,7 @@
 # A simple program to run a blind auction, clearing the screen between each bidder.
 # Import OS package for the ability to clear the output terminal.
 import os
-from blind_auction_art import logo
+from Blind_Auction_Art import logo
 
 # Defining the function for getting a new bidder; ask for their name and how much they'd like to bid.
 # Add them to the bidders dictionary with their name as the key, and their bid as the value.
