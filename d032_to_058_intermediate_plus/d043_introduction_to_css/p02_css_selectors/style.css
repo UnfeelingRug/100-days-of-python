@@ -1,0 +1,30 @@
+ol {
+    margin-left: -40px;
+    margin-top: -20px;
+    list-style-position: inside;
+  }
+  
+  /* Make all paragraphs red using the element selector. */
+  p {
+    color:red;
+  }
+  
+  /* Set all elements with the "Note" class to 20px font size. */
+  .note {
+    font-size:20px;
+  }
+  
+  /* Make the ID-Selector-Demo item into green text. */
+  #id-selector-demo {
+    color:green;
+  }
+  
+  /* Make the list item with a value of 4 into blue text. */
+  li[value="4"] {
+    color:blue
+  }
+  
+  /* Center all text in the HTML file. */
+  * {
+    text-align:center;
+  }
